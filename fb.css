@@ -1,0 +1,265 @@
+*
+	{
+		/*font-weight: 600;*/
+	  font-family: Helvetica, Arial, sans-serif;
+	}
+body 
+	{
+		margin: 0px;
+		background-color: #F0F2F5;
+		width: 100vh;
+	}
+.main_page
+	{
+		/*display: none;*/
+	}
+
+.main
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100vw;
+		height: 720px;
+
+	}
+
+.main_ui 
+	{
+	    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+       gap: 6rem;
+    padding-bottom: 10rem;
+	}
+img
+	{
+		width: 320px;
+		height: 106px;
+    margin-bottom: -2rem;
+    padding-left: 1rem;	}
+.second_sing
+	{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		flex-direction: column;
+		width: 440px;
+		height: 441px;
+		padding-top: 9rem;
+	}
+.signin
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		gap: .9rem;
+		width: 396px;
+		height: 334px;
+		border: none;
+		border-radius: 5px;
+		background-color: white;
+		box-shadow: 0 0 3px black;
+		    margin-right: 4rem;
+	}
+input 
+	{
+		width: 362px;
+		height: 52px;
+		border-radius: 7px;
+		border: 2px solid grey;
+		
+		padding-left: 20px;
+		box-sizing: border-box;
+
+	}
+
+input:focus{
+  border-color: #1877F2;
+  outline: none;
+  
+}
+
+
+.create_btn
+	{
+		width: 200px;
+		height: 36px;
+		border-radius: 4px;
+		border: none;
+		color: white;
+		font-weight: 600;
+		background-color: #42B72A;
+
+	}
+
+.facebook_logo
+	{
+		    padding-bottom: 1rem;
+    		padding-right: 3rem;
+	}
+.facebook_connect
+	{
+		width: 500px;
+		height: 84px;
+	}
+p  
+	{
+		font-size: 28px;
+		line-height: 28px;
+
+		height: auto;
+		padding-left: 3rem;
+
+	}
+
+.page_link,.cp 
+	{
+		font-size: 18px;
+		padding-left: 0px;
+		color: black;
+		font-weight: 600;
+	}
+
+.login_btn
+	{
+		width: 362px;
+		height: 52px;
+		border: none;
+		border-radius: 8px;
+		background-color: #1877F2;
+		color: white;
+		font-size: 21px;
+
+	}
+
+.footer
+	{
+		background-color: white;
+		width: 75vw;
+		height: auto;
+		color: black;
+	}
+.h1
+	{
+		width: 365px;
+	}
+.main_foter a  
+	{
+		width: 75px;
+	}
+.main_foter
+	{
+		
+		width: 100vw;
+		background-color: white;
+		flex-direction: column;
+		height: 200px;
+	}
+.footer-links 
+	{
+		width: 50vw;
+		color: grey;
+		font-size: 1rem;
+		text-decoration: none;
+	}
+
+.leng
+	{
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: white;
+	}
+.leng a
+	{
+		width: 50vw;
+		padding: 1rem 2rem;
+		color: grey;
+		font-size: 1rem;
+		text-decoration: none;
+	}
+ hr
+	{
+		width: 50vw;
+	}
+.footer{
+	margin-top: 2rem;
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: white;
+	}
+
+
+
+@media (max-width: 900px){
+	.main_ui{
+		display: flex;
+		flex-direction: column;   
+		align-items: center;
+		padding-top: 2rem;
+		gap: 0rem;
+
+
+	}
+	.facebook_connect,p 
+			{
+				font-size: 24px;
+				padding-right: 5px;
+			}
+	.signin
+		{
+		    margin-right: 0rem;
+
+		}
+	.second_sing
+		{
+		padding-top: 0rem;
+
+		}
+	img 
+	{
+		padding-left: 5rem;
+	}
+}
+
+
+
+/*=================*/
+.footer-links{
+	display: flex;
+	flex-wrap: wrap;     
+	gap: 4px 16px;      
+	max-width: 980px;
+	margin: auto;
+}
+
+.footer-links a{
+	text-decoration: none;   
+	color: #606770;
+	font-size: 1rem;
+}
+
+.footer-links a:hover{
+	text-decoration: underline;
+}
+a:hover,
+a:focus-visible,
+button:hover,
+button:focus-visible{
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+.pass1
+	{
+		display: flex;
+		justify-items: center;
+		align-items: center;
+	}

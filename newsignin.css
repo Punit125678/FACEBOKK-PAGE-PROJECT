@@ -1,0 +1,230 @@
+*
+	{
+		font-family: Helvetica, Arial, sans-serif;
+	}
+body
+	{
+		margin: 0px;
+		padding: 0px;
+		background-color: #F0F2F5;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+
+.create_account
+	{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		border: none;
+		box-shadow:  0 0 5px black;
+		border-radius: 8px;
+		width: 440px;
+		height: 735px;
+		background-color: white;
+	}
+
+.header
+	{
+		display: flex;
+		align-items: center;
+		justify-content: ;
+		flex-direction: column;
+		width: 432px;
+		height: 90px;
+		/*padding-top: 0rem;*/
+		border-bottom: 2px solid grey;
+		
+	}
+h2
+	{
+
+		font-size: 1.7rem;
+		margin-bottom: 0rem;
+		font-weight: 600;
+	}
+h3
+	{
+		margin-top: .3rem;
+		color: grey;
+	}
+
+.input_name
+	{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 430px;
+		height: 85px;
+		
+	}
+.First
+	{
+		width: 200px;
+		height: 49px;
+		border-radius: 8px;
+		border: 1px solid grey;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+.dob-inputs{
+  width: 431px;
+  padding-left: 1rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+      gap: 10px;
+    padding-right: 1px;
+    box-sizing: border-box;
+    margin-right: 16px;
+
+}
+
+.date{
+
+        font-size: 16px;
+    color: grey;
+    margin-bottom: -1px;
+    margin-top: 0px;
+    padding-left: 18px;
+}
+
+.dob-inputs select{
+  flex: 1;                
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+.radio_btn
+	{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		margin-right: 2px;
+		margin-left: 4px;
+	}
+
+.create_account
+	{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		/*flex-wrap: wrap;*/
+
+	}
+.first
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 122px;
+		height: 40px;
+		border-radius: 6px;
+		border: 1px solid grey;
+
+
+	}
+.gender
+	{
+		    padding-left: 17px;
+    		margin-top: 9px;
+    		margin-bottom: 6px;
+    		color: grey;
+    		font-size: 18px;
+	}
+
+.mobile_pass{
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 430px;
+}
+
+.mobile_pass input,
+#email,
+#pass{
+        width: 415px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+.second_gidenss
+	{
+		width: 415px;
+		flex-wrap: wrap;
+		color: grey;
+	  
+
+
+	}
+.gideness_first
+	{
+		width: 415px;
+		flex-wrap: wrap;
+		/*color: grey;  */
+		opacity: .5px;
+
+
+
+	}
+.second_gidenss a,
+.second_gidenss p,
+.gideness_first a,
+.gideness_first p,
+.aleredy_account a{
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+
+.sing_btn
+	{
+		width: 170px;
+		height: 35px;
+		background-color: #42B73A;
+		border-radius: 5px;
+		border: none;
+		color: white;
+		font-weight: 600;
+	}
+
+.sing_btn:hover
+	{
+		box-shadow: 0 0 10px green;
+	}
+.aleredy_account
+	{
+		margin-top: 22px;
+	}
+.facebook_logo1
+	{
+		width: 302px;
+		height: 178px;
+		margin-top: -110px;
+		margin-bottom: 10px;
+
+	}
+	.second_gidenss a:focus,
+.gideness_first a:focus{
+    opacity: 1;
+    outline: none;
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
